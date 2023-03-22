@@ -1,0 +1,157 @@
+body{
+    background-color: black;
+    color: white;
+}
+.header{
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+.right{
+    justify-content: center;
+    display: flex;
+    width: 20%;
+    height: 55px;
+    /* border: 2px solid brown; */
+    margin: 5px 1019px;
+    border-radius: 8px;
+    color: white;
+}
+.search input{
+    background: url("D:/HTML & CSS/Images/sp25.png");
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 250%;
+    padding: 13px;
+    border-radius: 40px;
+    font-size: 14px;
+}
+.btn{
+    width: 115px;
+    height: 53px;
+    font-size: 15px;
+    margin: 0px 9px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    padding: 4px 14px;
+    /* border: 2px solid grey; */
+    border-radius: 32px;
+    /* cursor: pointer; */
+}
+.btn:hover{
+    width: 118px;
+    height: 56px;
+}
+#signup{
+    color: grey;
+    width: 64px;
+    height: 33px;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 16px 25px;
+}
+#signup:hover{
+    font-size: 18px;
+    color: white;
+}
+.left{
+    display: flex;
+    margin: -65px 402px;
+    /* border: 2px solid grey; */
+    width: 20%;
+    height: 55px; 
+}
+.left img{
+    height: 54px;
+    cursor: not-allowed;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    height: 555px;
+    /* border: 2px solid brown; */
+    width: 30%;
+}
+#logo img{
+    height: 65px;
+    margin: 18px 9px;
+    cursor: pointer;
+}
+#logo div{
+    /* border: 2px solid brown; */
+    margin: -70px 76px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#navbar ul{
+    position: absolute;
+    display: block;
+    left: 20px;
+    top: 95px;
+    
+}
+#navbar ul li{
+    display: flex;
+    margin: -25px -63px;
+    padding: 2px 2px;
+    list-style: none;
+}
+#navbar ul li .active{
+    color: white;
+}
+#navbar ul li a{
+    color: grey;
+    text-decoration: none;
+    margin: 24px 3px;
+    cursor: pointer;
+}
+#navbar ul li a:hover{
+    color: white;
+}
+#navbar ul li img{
+    height: 60px;
+    margin: 4px 10px;
+    cursor: pointer;
+}
+.para{
+    cursor: pointer;
+    color: white;
+    font-size: 12px;
+    margin: 1px 25px;
+}
+.para:hover{
+    text-decoration: underline;
+}
+.container{
+    /* display: flex; */
+    height: 1670px;
+    font-size: 23px;
+    margin: -485px 378px;
+    border: 2px solid rgb(17, 16, 16);
+    width: 70%;
+    background-color: rgb(24, 22, 22);
+}
+.heading{
+    margin: 70px 18px;
+}
+.container2{
+    display: flex;
+    margin: -50px 5px;
+}
+.box img{
+    cursor: pointer;
+    height: 200px;
+    width: 200px;
+    margin: 0px 8px;
+    border-radius: 10px;
+}
+.container3{
+    display: flex;
+    margin: 65px 5px;
+}
+.container4{
+    display: flex;
+    margin: -47px 5px;
+}
